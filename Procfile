@@ -1,1 +1,1 @@
-web: gunicorn microblog.wsgi
+web: gunicorn microblog.wsgi --log-file -
